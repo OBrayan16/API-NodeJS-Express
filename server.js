@@ -36,6 +36,9 @@ require("./app/routes/tutorial.routes")(app);
 require("./app/routes/cliente.routes")(app);
 // Agrega esta línea junto a las rutas de clientes
 require("./app/routes/producto.routes")(app);
+require("./app/routes/empleado.routes")(app);
+require("./app/routes/proveedor.routes")(app);
+require("./app/routes/departamento.routes")(app);
 
 // Configuramos un puerto distinto para el backend (8080)
 const PORT = process.env.PORT || 8080;
